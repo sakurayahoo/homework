@@ -1,0 +1,15 @@
+<style>
+
+.hover {position:relative;}
+
+.hover img {
+  position:absolute;
+
+  transition: opacity 1s ease-in-out;
+
+}
+
+.hover img:nth-of-type(1):hover{  
+  opacity:0; 
+} 
+</style>
